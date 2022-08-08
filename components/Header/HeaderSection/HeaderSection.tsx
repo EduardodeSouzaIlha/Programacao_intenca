@@ -14,7 +14,7 @@ const HeaderSection: FC<HeaderSection> = ({href, title}) => {
     return (
         <Link href={href}>
             <a className={styles.link}>
-                <div>teste</div>
+                <div>{title}</div>
             </a>
         </Link>
     )
