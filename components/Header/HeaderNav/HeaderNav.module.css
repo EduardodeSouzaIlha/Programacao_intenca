@@ -1,0 +1,6 @@
+.divLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75vw;
+}

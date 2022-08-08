@@ -1,0 +1,14 @@
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bunda {
+    text-align: center;
+    width: 12.5vw;
+}
+
