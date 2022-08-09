@@ -1,12 +1,14 @@
 .alinhas{
-    background: linear-gradient(45deg,aqua,rgb(123, 212, 212),rgb(104, 156, 156),rgb(32, 99, 99));
+    border-radius:15px;
+    opacity:0.9;
+    background: linear-gradient(45deg,rgb(32, 46, 46),rgb(28, 32, 32),rgb(25, 32, 32));
     background-size: 400% 400%;
 	animation: Login 7s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    width:300px;
+    width:40%;
     height: 200px;
 }
 @keyframes Login {
@@ -30,7 +32,7 @@
 }
 .input{
     background-color:transparent;
-    border: black 3px solid;
+    border: rgb(83, 93, 235) 3px solid;
     
     opacity:0.8;
     border-radius:18px;
@@ -40,6 +42,6 @@
     height:40%;
 }
 .input::-webkit-input-placeholder{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 

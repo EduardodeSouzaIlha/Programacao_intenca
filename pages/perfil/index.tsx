@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import Teste from '../../components/Teste/teste'
+import style from './style.module.css'
 
 const teste: NextPage = () => {
     return (
@@ -13,11 +14,11 @@ const teste: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
-            <div className={styles.container}>
+            <div className={style.body}>
                 <main className={styles.main}>
-                    <div>
+                  
                         <Teste value='Nome' name='Message' />
-                    </div>
+                  
                 </main>
             </div>
         </>
