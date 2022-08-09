@@ -1,8 +1,7 @@
-import { FC } from 'react'
 import HeaderSection from '../HeaderSection/HeaderSection'
 import styles from './HeaderNav.module.css'
 
-const HeaderNav: FC = () => {
+const HeaderNav = () => {
     return (
         <div className={styles.divLinks}>
             <HeaderSection title="teste1" href="teste1"/>

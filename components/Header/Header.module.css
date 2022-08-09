@@ -1,5 +1,6 @@
 .header {
-    background-color: white;
+    border-bottom: white 2px solid;
+    background: linear-gradient(45deg,rgb(40, 6, 80),rgb(28, 32, 32),rgb(25, 32, 32));
     position: fixed;
     width: 100vw;
     height: 10vh;
@@ -8,6 +9,7 @@
     justify-content: center;
 }
 .bunda {
+    color: white;
     text-align: center;
     width: 12.5vw;
 }
