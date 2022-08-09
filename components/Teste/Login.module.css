@@ -1,0 +1,45 @@
+.alinhas{
+    background: linear-gradient(45deg,aqua,rgb(123, 212, 212),rgb(104, 156, 156),rgb(32, 99, 99));
+    background-size: 400% 400%;
+	animation: Login 7s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width:300px;
+    height: 200px;
+}
+@keyframes Login {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+.loginBox{
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    width: 90%;
+    justify-content: center;
+}
+.input{
+    background-color:transparent;
+    border: black 3px solid;
+    
+    opacity:0.8;
+    border-radius:18px;
+    text-align: center;
+    margin-bottom:1%;
+    width:100%;
+    height:40%;
+}
+.input::-webkit-input-placeholder{
+    color: black;
+}
+
