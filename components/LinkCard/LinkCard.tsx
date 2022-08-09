@@ -1,5 +1,5 @@
 //Cards os quais levam para outros links
-//futuramente poderá ser utilizado para carregar coisas na página talvez?
+//futuramente poderá ser utilizado para carregar coisas na página talvez? 
 
 import { FC } from 'react'
 import styles from './LinkCard.module.css'

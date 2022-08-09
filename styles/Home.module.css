@@ -1,5 +1,5 @@
 .container {
-  background-color: whitesmoke;
+  background-color: rgb(165, 165, 165);
   padding: 0 2rem;
 }
 
@@ -72,7 +72,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1500px;
 }
 
 .logo {
