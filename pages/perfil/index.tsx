@@ -3,12 +3,12 @@ import Header from '../../components/Header/Header'
 import styles from '../../styles/Home.module.css'
 import Teste from '../../components/Teste/teste'
 import style from './styles.module.css'
-import HeadComponent from '../../components/HeadComponent/HeadComponent'
+import Head from '../../components/HeadComponent/HeadComponent'
 
 const perfil: NextPage = () => {
     return (
         <>
-            <HeadComponent/>
+            <Head title='Perfil'/>
             <Header />
             <div className={style.content}>
                 <main className={styles.main}>
