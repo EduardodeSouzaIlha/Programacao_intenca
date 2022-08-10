@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header'
 import styles from '../../styles/Home.module.css'
 import Teste from '../../components/Teste/teste'
 import style from './styles.module.css'
-import Head from '../../components/HeadComponent/HeadComponent'
+import Head from '../../components/Head/Head'
 
 const perfil: NextPage = () => {
     return (

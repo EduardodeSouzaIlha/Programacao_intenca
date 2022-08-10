@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Header from '../../components/Header/Header'
 import styles from '../../styles/Home.module.css'
-import Head from '../../components/HeadComponent/HeadComponent'
+import Head from '../../components/Head/Head'
 const Teste1:NextPage = () => {
     return (
         <>

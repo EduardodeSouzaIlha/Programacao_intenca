@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Header from '../../components/Header/Header'
-import Head from '../../components/HeadComponent/HeadComponent'
+import Head from '../../components/Head/Head'
 import styles from '../../styles/Home.module.css'
 
 const Teste3:NextPage = () => {

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header/Header'
 import LinkCard from '../components/LinkCard/LinkCard'
-import Head from '../components/HeadComponent/HeadComponent'
+import Head from '../components/Head/Head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
