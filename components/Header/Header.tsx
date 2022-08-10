@@ -1,7 +1,7 @@
 //Header principal da página, seus elementos são os HeaderSection
 //conforme clicado no HeaderSection, a página mudará
 
-import Link from 'next/Link'
+import Link from 'next/link'
 import NavBar from './NavBar/NavBar'
 import styles from './Header.module.css'
 

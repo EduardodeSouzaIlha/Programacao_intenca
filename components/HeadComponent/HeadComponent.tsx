@@ -1,6 +1,5 @@
-import { FC } from 'react'
 import Head from 'next/head'
-const Title: FC = () => {
+const HeadComponent = () => {
     return(
         <>
             <Head>
@@ -11,4 +10,4 @@ const Title: FC = () => {
         </>
     )
 }
-export default Title;
+export default HeadComponent;

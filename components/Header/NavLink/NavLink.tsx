@@ -2,7 +2,7 @@
 //futuramente poderá ser utilizado para carregar coisas na página talvez?
 
 import { FC } from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { LinkArea, Title } from './styles';
 
 interface NavLink{

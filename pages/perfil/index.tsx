@@ -2,15 +2,15 @@ import type { NextPage } from 'next'
 import Header from '../../components/Header/Header'
 import styles from '../../styles/Home.module.css'
 import Teste from '../../components/Teste/teste'
-import style from './style.module.css'
-import Title from '../../components/head/Title'
+import style from './styles.module.css'
+import HeadComponent from '../../components/HeadComponent/HeadComponent'
 
-const teste: NextPage = () => {
+const perfil: NextPage = () => {
     return (
         <>
-            <Title/>
+            <HeadComponent/>
             <Header />
-            <div className={style.body}>
+            <div className={style.content}>
                 <main className={styles.main}>
                   
                         <Teste value='Nome' name='Message' />
@@ -21,4 +21,4 @@ const teste: NextPage = () => {
     )
 }
 
-export default teste
+export default perfil

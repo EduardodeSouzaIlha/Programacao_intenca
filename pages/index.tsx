@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header/Header'
 import LinkCard from '../components/LinkCard/LinkCard'
-import Title from '../components/head/Title'
+import HeadComponent from '../components/HeadComponent/HeadComponent'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <>
-    <Title/>
+    <HeadComponent/>
     <Header />
     
     <div className={styles.container}>

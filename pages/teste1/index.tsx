@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Header from '../../components/Header/Header'
 import styles from '../../styles/Home.module.css'
-import Title from '../../components/head/Title'
-const teste:NextPage = () => {
+import HeadComponent from '../../components/HeadComponent/HeadComponent'
+const Teste1:NextPage = () => {
     return (
         <>
-        <Title/>
+        <HeadComponent/>
         <Header />
         <div className={styles.container}>
             <main className={styles.main}>
@@ -18,4 +18,4 @@ const teste:NextPage = () => {
     )
 }
 
-export default teste
+export default Teste1

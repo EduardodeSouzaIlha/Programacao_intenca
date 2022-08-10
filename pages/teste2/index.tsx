@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Header from '../../components/Header/Header'
-import Title from '../../components/head/Title'
+import HeadComponent from '../../components/HeadComponent/HeadComponent'
 import styles from '../../styles/Home.module.css'
 
-const teste:NextPage = () => {
+const Teste2:NextPage = () => {
     return (
         <>
-        <Title/>
+        <HeadComponent/>
        
         <Header />
         <div className={styles.container}>
@@ -20,4 +20,4 @@ const teste:NextPage = () => {
     )
 }
 
-export default teste
+export default Teste2
