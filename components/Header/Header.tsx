@@ -2,7 +2,7 @@
 //conforme clicado no HeaderSection, a página mudará
 
 import Link from 'next/Link'
-import HeaderNav from './HeaderNav/HeaderNav'
+import NavBar from './NavBar/NavBar'
 import styles from './Header.module.css'
 
 const LinkCard = () => {
@@ -12,7 +12,7 @@ const LinkCard = () => {
                 <Link href="/">
                     <a className={styles.bunda}>Logo</a>
                 </Link>
-                <HeaderNav />
+                <NavBar />
                 <Link href="perfil">
                     <a className={styles.bunda}>Perfil</a>
                 </Link>
