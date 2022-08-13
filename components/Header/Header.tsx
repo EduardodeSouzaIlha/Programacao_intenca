@@ -2,21 +2,36 @@
 //conforme clicado no HeaderSection, a página mudará
 
 import Link from 'next/link'
+import Image from 'next/image'
 import NavBar from './NavBar/NavBar'
-import styles from './Header.module.css'
+import { ImageWrapper, HeaderWrapper } from './style'
+import blackIcon from '../../src/icon/blackIcon.svg'
+import whiteIcon from '../../src/icon/whiteIcon.svg'
 
 const LinkCard = () => {
     return (
         <>
-            <header className={styles.header}>
-                <Link href="/">
-                    <a className={styles.bunda}>Logo</a>
-                </Link>
+            <HeaderWrapper>
+                <ImageWrapper>
+                    <Link href="/"><a>
+                        <Image  
+                            src={whiteIcon}
+                            alt="catcode icon"
+                            width={"80%"}
+                        />
+                        </a></Link>
+                </ImageWrapper>
                 <NavBar />
-                <Link href="perfil">
-                    <a className={styles.bunda}>Perfil</a>
-                </Link>
-            </header>
+                <ImageWrapper>
+                    <Link href="/perfil"><a>
+                        <Image  
+                            src={blackIcon}
+                            alt="catcode icon"
+                            width={"80%"}
+                        />
+                        </a></Link>
+                </ImageWrapper>
+            </HeaderWrapper>
         </>
     )
 }
